@@ -1,0 +1,18 @@
+#services {
+background:RGBA(55, 60, 112, 1);
+}
+
+#pitch {
+font-size:150%;
+line-height: 1.5;
+}
+
+header h3 {
+position: relative;
+text-align: center;
+}
+
+#big {
+font-size:2.2em;
+line-height:1.4;
+}
