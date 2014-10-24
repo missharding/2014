@@ -1,3 +1,24 @@
+/*
+Built using open-source tech & creative commons resources. For details please refer to /attributions.txt. 
+*/
+
+
+/*********************************************************************************/
+/* Global overrides                                                              */
+/*********************************************************************************/
+
+
+.box {
+border-bottom:0px solid #ccc;
+}
+
+#header-wrapper {
+border-bottom: solid 0px #ccc;
+}
+section {
+margin-bottom:1em;
+}
+
 #services {
 background:RGBA(55, 60, 112, 1);
 }
@@ -5,6 +26,7 @@ background:RGBA(55, 60, 112, 1);
 #pitch {
 font-size:150%;
 line-height: 1.5;
+text-align: left;
 }
 
 header h3 {
@@ -15,4 +37,72 @@ text-align: center;
 #big {
 font-size:2.2em;
 line-height:1.4;
+}
+
+#nav > ul > li > a
+{
+border: 1px solid #f3f3f3;
+
+}
+
+#nav > ul > li:hover > a
+{
+background: #f3f3f3;
+border: 1px solid RGBA(248, 17, 89, 0.9);
+}
+
+
+/*********************************************************************************/
+/* Animation primitives                                                          */
+/*********************************************************************************/
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
 }

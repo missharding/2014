@@ -9,7 +9,7 @@ Credits:
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 	Layout:
-		Dopetrope by HTML5 UP
+		Dopetrope by HTML5 UP (html5up.net)
 	Components:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
@@ -17,6 +17,7 @@ Credits:
 		background-size polyfill (github.com/louisremi)
 		jquery.dropotron (n33.co)
 		skel (http://getskel.com)
+		Animate.css (http://daneden.me/animate)
 		
 
 If anything attribution/license information is incomplete, please let me know.
