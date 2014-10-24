@@ -27,6 +27,7 @@ Built using open-source tech & creative commons resources. For details please re
 			-o-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
+			display:none;
 		}
 
 	body,input,textarea,select
@@ -713,7 +714,7 @@ Built using open-source tech & creative commons resources. For details please re
 		{
 			/* background-color: #252122; 
 			background-color: rgba(34,30,31,0.5);*/
-			background-color: RGBA(248, 17, 89, 0.5)
+			background-color: RGBA(248, 17, 89, 0.5);
 		}
 		
 			#banner header h2
