@@ -20,7 +20,7 @@ Built using open-source tech & creative commons resources. For details please re
 					position: 'top-left',
 					side: 'left',
 					animation: 'pushX',
-					width: '80%',
+					width: '60%',
 					height: '100%',
 					clickToHide: true,
 					html: '<div data-action="navList" data-args="nav"></div>',

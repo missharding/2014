@@ -3,54 +3,215 @@ Built using open-source tech & creative commons resources. For details please re
 */
 
 
+/**********************************************************************************
+
+Brand font: League Gothic from https://edgewebfonts.adobe.com (free/open)
+Title font: Junction from https://www.theleagueofmoveabletype.com/ (free/open)
+Regular font: Minion Pro https://typekit.com/fonts/minion-pro (paid)
+
+We actually use Source Sans Pro for body text.
+Use the above fonts only in exceptional circumstance as it does not translate well as webfont
+
+Brand colors
+Razzmatazz Pink #EE0E56 RGBA(238, 14, 86, 1)
+Toreo Bay Blue #373C70 RGBA(55, 60, 112, 1)
+Corn Silk Yellow #FFF8E0 RGBA(255, 248, 224, 1)
+
+
+***********************************************************************************/
+@font-face {
+	font-family: 'League Gothic';
+	src: url('/fonts/league-gothic/leaguegothic-regular-webfont.eot');
+	src: url('/fonts/league-gothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/league-gothic/leaguegothic-regular-webfont.woff') format('woff'),
+	url('/fonts/league-gothic/leaguegothic-regular-webfont.ttf') format('truetype'),
+	url('/fonts/league-gothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+	font-weight: lighter;
+	font-style: normal;
+
+}
+
+
+
+
 /*********************************************************************************/
 /* Global overrides                                                              */
 /*********************************************************************************/
 
 
+
+body {
+	border-top: 5px solid RGBA(248, 17, 89, 0.1);
+	border-bottom:30px solid RGBA(248, 17, 89, 0.1);
+}
+
+body, html {
+	background: RGBA(254, 246, 249, 1);  /* RGBA(58, 64, 125, 1);  RGBA(254, 246, 249, 1); */
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: RGBA(55, 60, 112, 1);
+	background: transparent;
+	font-weight: 100;
+	font-smooth:always;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+
+small {
+	font-size: 70%;
+}
+
+a {
+	text-decoration: none;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+a:hover {
+	{
+		background: RGBA(58, 64, 125, 1);
+		border: 0px solid RGBA(248, 17, 89, 0.9);
+		color:white;
+	}
+
+}
+
+p {
+	margin-bottom: 1.2em;
+}
+
 .box {
-border-bottom:0px solid #ccc;
+	background: RGBA(254, 248, 222, 0.1);
+	border-left: 1px solid RGBA(248, 17, 89, 0.05);
+	border-top: 1px solid RGBA(248, 17, 89, 0.05);
+	border-bottom:1px solid RGBA(248, 17, 89, 0.05);
+	-moz-box-shadow: 4px 8px 4px -4px RGBA(248, 17, 89, 0.2);
+	-webkit-box-shadow: 4px 4px 8px -4px RGBA(248, 17, 89, 0.2);
+	box-shadow: 4px 4px 8px -4px RGBA(248, 17, 89, 0.2);
 }
 
 #header-wrapper {
-border-bottom: solid 0px #ccc;
+	border-bottom: solid 0px #ccc;
+}
+
+
+#banner {
+	-moz-box-shadow: 0px 8px 4px -4px RGBA(248, 17, 89, 0.2);
+	-webkit-box-shadow: 0px 8px 4px -4px RGBA(248, 17, 89, 0.2);
+	box-shadow: 0px 8px 4px -4px RGBA(248, 17, 89, 0.2);
+}
+
+#banner header>h2 {
+	font-family: league-gothic, 'Source Sans Pro', sans-serif;
+	font-weight: 100;
 }
 section {
-margin-bottom:1em;
+	margin-bottom: 1em;
 }
 
 #services {
-background:RGBA(55, 60, 112, 1);
+	background: rgba(55, 60, 112, 1);
+}
+
+#main-wrapper
+{
+	position: relative;
+	background: transparent;
+	background: RGBA(254, 246, 249, 1);
+	/* background: RGBA(254, 248, 222, 0.2); */
 }
 
 #pitch {
-font-size:150%;
-line-height: 1.5;
-text-align: left;
+	font-size: 150%;
+	line-height: 1.4;
+	text-align: left;
+}
+
+#oneone {
+	/*   background: RGBA(254, 246, 249, 1); */
 }
 
 header h3 {
-position: relative;
-text-align: center;
+	position: relative;
+	text-align: center;
+	font-weight: 400;
+}
+
+
+header a {
+	color: white;
 }
 
 #big {
-font-size:2.2em;
-line-height:1.4;
+	font-size: 2em;
+	line-height: 1.4;
 }
+#nav > ul > li
+{
+	font-size: 1.2em;
+	font-style: normal;
+}
+
 
 #nav > ul > li > a
 {
-border: 1px solid #f3f3f3;
+	border: 0px solid #f3f3f3;
+	background: RGBA(248, 17, 89, 0.5);
+	color: white;
 
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 
 #nav > ul > li:hover > a
 {
-background: #f3f3f3;
-border: 1px solid RGBA(248, 17, 89, 0.9);
+	background: RGBA(58, 64, 125, 1);
+	border: 0px solid RGBA(248, 17, 89, 0.9);
+	color:white;
+	-moz-box-shadow: 5px 5px 4px -4px RGBA(58, 64, 125, 0.5);
+	-webkit-box-shadow: 5px 5px 4px -4px RGBA(58, 64, 125, 0.5);
+	box-shadow: 5px 5px 4px -4px RGBA(58, 64, 125, 0.5);
 }
 
+
+.quotes {
+	font-style: italic;
+}
+
+.scrollup {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	display: none;
+	text-align:center;
+    /*text-indent: -9999px;
+    background: url('./images/up-arrow-icon.png') no-repeat; */
+    background-color: transparent; 
+}
+
+a.scrollup {
+	font-size: 60px;
+	color:  RGBA(248, 17, 89, 0.5); /* RGBA(58, 64, 125, 0.4); */
+	padding:0px 5px 10px 5px;
+	vertical-align: middle;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+a.scrollup:hover {
+	color: RGBA(58, 64, 125, 0.8);
+}
 
 /*********************************************************************************/
 /* Animation primitives                                                          */
@@ -58,51 +219,51 @@ border: 1px solid RGBA(248, 17, 89, 0.9);
 
 
 .animated {
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 
 .animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
 }
 
 @-webkit-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
 
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
 }
 
 @keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
 
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
 }
 
 .fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
 }
