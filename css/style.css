@@ -792,7 +792,6 @@ ol.default li
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -820,7 +819,7 @@ ol.default li
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
+			/* background: url('images/bg01.png'); */
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
