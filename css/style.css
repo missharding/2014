@@ -279,7 +279,7 @@ header.major
 
 header.major h2
 {
-	background: RGBA(254, 246, 249, 1);
+	background: RGBA(255, 254, 249, 1); /* RGBA(254, 246, 249, 1); */
 	position: relative;
 	top: -0.65em;
 	display: inline;
@@ -446,7 +446,7 @@ ul.contact
 ul.contact li
 {
 	position: relative;
-	border-top: solid 1px #ddd;
+	border-top: solid 1px RGBA(58, 64, 125, 0.1);
 	padding: 1.3em 0 1.3em 7em;
 }
 
@@ -461,6 +461,7 @@ ul.contact li h3
 ul.contact li p
 {
 	margin: 0;
+	margin-left: -1.5em;
 }
 
 ul.contact li:first-child
@@ -701,7 +702,7 @@ ol.default li
 
 #banner
 {
-	background: #fef1f5 url('../images/help.jpg');
+	background: RGBA(55, 60, 112, 0.5)  url('../images/help.jpg'); /* #fef1f5 */
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -716,7 +717,7 @@ ol.default li
 {
 			/* background-color: #252122; 
 			background-color: rgba(34,30,31,0.5);*/
-			background-color: RGBA(248, 17, 89, 0.5);
+			background-color: RGBA(55, 60, 112, 0.5); /*RGBA(248, 17, 89, 0.5); */
 		}
 		
 		#banner header h2
@@ -752,7 +753,8 @@ ol.default li
 		{
 			/* background-color: #252122; 
 			background-color: rgba(34,30,31,0.5);*/
-			background-color: RGBA(248, 17, 89, 0.5)
+			background-color: RGBA(55, 60, 112, 0.7); /* RGBA(248, 17, 89, 0.5); */
+
 		}
 		
 		#banner header h2
@@ -776,7 +778,7 @@ ol.default li
 		{
 			position: relative;
 			background: #fef6f9;
-			border-bottom: solid 1px #ccc;
+			border-bottom: solid 0px #ccc;
 		}
 
 		#main-wrapper

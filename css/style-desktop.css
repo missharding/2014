@@ -26,8 +26,19 @@
 
 	header
 	{
-		margin: 0 0 0.5em 0;
+		margin: 1em 0 0.5em 0;
 	}
+
+	h3.names {
+		margin-top: -1em;
+		margin-bottom: 0.2em;
+		
+	}
+
+	.miss {
+		/* padding-top: 2.5em; */
+	}
+
 
 	header > p
 	{
@@ -37,14 +48,15 @@
 
 	header.major
 	{
-		margin: 0 0 3em 0;
+		margin:1em 0 1em 0;
 	}
 	header.major h2
 	{
-		background: RGBA(254, 246, 249, 1);
+		
 		font-weight: 400;
 		font-size: 2em;
 		text-transform: uppercase;
+		margin-bottom: 1em;
 
 	}
 
@@ -59,6 +71,11 @@
 	}
 	
 	/* Box */
+
+	section {
+		margin: 0;
+		padding: 0;
+	}
 
 	.box
 	{
@@ -166,17 +183,18 @@
 
 	#header-wrapper
 	{
-		padding: 2em 0 0.1em 0;
+		padding: 1em 0 0.1em 0;
 	}
 
 	#main-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 3em 0 3em 0;
+		
 	}
 
 	#footer-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 1em 0 1em 0;
 	}
 
 	#footer-wrapper header
@@ -206,6 +224,11 @@
 		letter-spacing: -0.035em;
 		margin: 0 0 1em 0;
 	}
+
+	#logo {
+	width:350px;
+	margin:0 auto;
+} 
 
 	/*********************************************************************************/
 	/* Nav                                                                           */
@@ -338,8 +361,8 @@
 	#banner
 	{
 		position: relative;
-		padding: 8em 0;
-		margin: 4em 0 0 0;
+		padding: 4em 0;
+		margin: 2em 0 0 0;
 	}
 	
 	#banner header
@@ -352,13 +375,19 @@
 	#banner header h2                           /* Adjust for League Gothic*/
 	{
 		font-size: 4em;
-		margin: 0 0 0.65em 0;
+		margin: 0.2em 0 0.65em 0;
 	}
 
 	#banner header p
 	{
 		font-size: 1.5em;
 	}
+
+	#people {
+		margin-top: -2em;
+	}
+
+
 
 	/*********************************************************************************/
 	/* Footer                                                                        */
@@ -453,6 +482,12 @@
 		margin: 0;
 	}
 
+
+ul.contact
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
 	/*********************************************************************************/
 	/* Copyright                                                                     */
 	/*********************************************************************************/

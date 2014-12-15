@@ -294,6 +294,11 @@ ul.social li
 	text-align: center;
 }
 
+#header-wrapper
+{
+	padding: 0.5em 0 0.5em 0;
+}
+
 #header h1
 {
 	color: #252122;
@@ -304,7 +309,7 @@ ul.social li
 
 
 #logo {
-	width:250px;
+	width:200px;
 	margin:0 auto;
 } 
 /*********************************************************************************/
@@ -322,8 +327,8 @@ ul.social li
 
 #banner
 {
-	margin: 2em 0 4em 0 !important;
-	padding: 6em 0;
+	margin: 1em 0 1em 0 !important;
+	padding: 1em 0;
 }
 
 #banner header
@@ -366,5 +371,7 @@ ul.social li
 
 a.scrollup {
 	font-size: 40px;
+	display: none;
+	visibility: none;
 }
 
