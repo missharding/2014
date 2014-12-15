@@ -159,6 +159,11 @@ header a:hover,  header a:focus,  header a:active {
 	text-decoration: none;
 }
 
+header.major h2
+{
+	background: RGBA(255, 254, 249, 1); 
+}
+
 #big {
 	font-size: 2em;
 	line-height: 1.4;
