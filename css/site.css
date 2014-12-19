@@ -236,6 +236,10 @@ a.scrollup:hover {
 	text-align: center;
 	border-top: 2px solid RGBA(55, 60, 112, 0.4);
 }
+
+#footer a, #footer a:visited {
+	color:#fefefe;
+}
 /*********************************************************************************/
 /* Animation primitives                                                          */
 /*********************************************************************************/
